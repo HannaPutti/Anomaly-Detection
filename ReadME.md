@@ -1,7 +1,7 @@
 ##  Project Summary
 
-### 🔍 What we did
-We built and compared **six unsupervised anomaly detection methods** on time series data, to find out whether a computer can learn what "normal" looks like and spot unusual periods **without ever seeing a label**. The labeled events were used only afterwards, to check the results.
+###  What did I do ?
+I built and compared **six unsupervised anomaly detection methods** on time series data, to find out whether a computer can learn what "normal" looks like and spot unusual periods **without ever seeing a label**. The labeled events were used only afterwards, to check the results.
 
 - 📈 **Prediction-based:** AutoARIMA and NHITS forecast the next value and flag big misses.
 - 🧠 **Reconstruction-based:** an LSTM autoencoder, a dense autoencoder, a variational autoencoder (VAE) and a GAN rebuild their input and flag what they rebuild badly.
